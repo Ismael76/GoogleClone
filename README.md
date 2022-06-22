@@ -1,22 +1,22 @@
-# Lap1 Code Chanllenge - GoogleClone
+# Lap 1 Code Challenge - GoogleClone
 
-# Exercise description 
-Within your pair work on developing an alike Google. In other words, create your own server, and front end - with Google's look - that communicate one other so that: 
-- when pressing the left side button, an API call should be executed and users should be shown a page with ten results
-- when prrssimg the right side button, user should be taken to the page of one of the results
-
-Obervation! You may use of the Google Search API. Also - if case you use your own API - you can have limited selection of 'result' options that might be returned for a few search terms
+## Installation & Usage
 
 
-# Implementation
-Installation and usage
+### Install
 
-Technologies 
+- Git clone/download the repo
+- Navigate into the server folder via terminal
+- Run command `npm install`
 
-Process 
+### Server
 
-Licence
+- Navigate into the server folder via terminal
+- Run command `npm start` to start up the server
 
+### Client
 
-# Wins and challengs
->>>>>>> 9b7b4af4dd2a9aa34bb472a0b3c1e4f7f0d340ef
+- Navigate into the client folder
+- Open homepage.html via live server plugin
+
+## Wins & Challenges
