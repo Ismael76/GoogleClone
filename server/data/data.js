@@ -2,7 +2,7 @@ searchItems = [
   {
     URL: "https://www.facebook.com",
     Title: "Facebook - Log In Or Sign Up",
-    Name:"facebook",
+    Name: "facebook",
     Description:
       "Create an account or log in to Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
     Tags: "Social Media • Friends • FB • Groups",
@@ -10,7 +10,7 @@ searchItems = [
   {
     URL: "https://www.reddit.com",
     Title: "Reddit - Dive Into Anything",
-    // Name: "reddit",
+    Name: "reddit",
     Description:
       "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in.",
     Tags: "Community • Memes • Groups",
@@ -18,6 +18,7 @@ searchItems = [
   {
     URL: "https://www.amazon.co.uk",
     Title: "Amazon.co.uk: Low Prices In Electronics, Books, Sports ...",
+    Name: "amazon",
     Description:
       "Sign up to Amazon Prime for unlimited free delivery. Low prices at Amazon on digital cameras, MP3, sports, books, music, DVDs, video games, home & garden ...",
     Tags: "Amazon Prime • Shopping • Offers • Electronics",
@@ -25,6 +26,7 @@ searchItems = [
   {
     URL: "https://www.sky.com",
     Title: "Sky Glass - The New 4k TV From Sky | Sky Broadband, TV ...",
+    Name: "sky",
     Description:
       "Discover Sky packages including Glass - the new streaming TV with Sky Inside. Superfast broadband, TV bundles, mobile deals. Manage your My Sky account ...",
     Tags: "Broadband • TV • Packages • Sports",
@@ -32,6 +34,7 @@ searchItems = [
   {
     URL: "https://www.youtube.com",
     Title: "YouTube",
+    Name: "youtube",
     Description:
       "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
     Tags: "Social Media • Videos • Subscribers • Trends",
@@ -39,6 +42,7 @@ searchItems = [
   {
     URL: "https://www.netflix.com",
     Title: "Netflix - Watch TV Shows Online, Watch Movies Online",
+    Name: "netflix",
     Description:
       "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of ...",
     Tags: "Movies • Shows • Discover • Comedy",
@@ -46,6 +50,7 @@ searchItems = [
   {
     URL: "https://www.microsoft.com",
     Title: "Microsoft – Cloud, Computers, Apps & Gaming",
+    Name: "microsoft",
     Description:
       "Explore Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows, Azure and more. Find downloads and get ...",
     Tags: "Products • Windows • Services • Software",
@@ -53,6 +58,7 @@ searchItems = [
   {
     URL: "https://www.github.com",
     Title: "GitHub: Where The World Builds Software · GitHub",
+    Name: "github",
     Description:
       "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, ...",
     Tags: "GitHub • Repository • Collaboration • Git",
@@ -60,6 +66,7 @@ searchItems = [
   {
     URL: "https://store.steampowered.com/",
     Title: "Welcome To Steam",
+    Name: "steam",
     Description:
       "Steam is the ultimate destination for playing, discussing, and creating games.",
     Tags: "Games • Products • Friends • Sale",
@@ -67,7 +74,7 @@ searchItems = [
   {
     URL: "https://www.instagram.com",
     Title: "Instagram",
-    Name:"instagram",
+    Name: "instagram",
     Description:
       "Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family..",
     Tags: "Social Media • Friends • Pictures • Videos",
