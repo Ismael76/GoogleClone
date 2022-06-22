@@ -18,4 +18,4 @@
 - Navigate into the client folder
 - Open homepage.html via live server plugin
 
-## Wins and challengs
+## Wins and challenges
