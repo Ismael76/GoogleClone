@@ -1,4 +1,4 @@
-# Lap1 Code Challenge - GoogleClone
+# Lap 1 Code Challenge - GoogleClone
 
 ## Installation & Usage
 
@@ -16,6 +16,6 @@
 ### Client
 
 - Navigate into the client folder
-- Open homepage.html via live server
+- Open homepage.html via live server plugin
 
 ## Wins and challengs
