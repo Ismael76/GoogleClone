@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=Roboto:ital,wght@1,300&display=swap");
 .container {
   max-width: 1140px;
-  margin-left: 5rem;
+  margin-left: 15rem;
 }
 
 .googleSearch {
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 section {
@@ -16,6 +19,7 @@ section {
 footer {
   position: relative;
   bottom: 0;
+  text-align: center;
 }
 
 .url {
@@ -62,4 +66,40 @@ a:hover {
 
 a:visited {
   color: #681da8;
+}
+
+.search {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  padding: 0.5rem 0.3rem;
+  position: relative;
+  box-shadow: 3px 3px 10px lightgray;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.googleImg {
+  width: 10%;
+  height: 25%;
+}
+
+.input {
+  width: 25%;
+  position: relative;
+  top: 10%;
+  padding-left: 1rem;
+}
+
+.icon {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 20px;
+  height: 20px;
 }
