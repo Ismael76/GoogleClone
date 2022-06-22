@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# GoogleClone
+
+    branch added
+=======
 # Lap1 Code Chanllenge - GoogleClone
 
 # Exercise description 
@@ -19,3 +24,4 @@ Licence
 
 
 # Wins and challengs
+>>>>>>> 9b7b4af4dd2a9aa34bb472a0b3c1e4f7f0d340ef
