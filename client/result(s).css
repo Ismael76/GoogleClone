@@ -81,20 +81,25 @@ a:visited {
   position: relative;
   box-shadow: 3px 3px 10px lightgray;
   width: 100%;
+  padding-left: 2rem;
 }
 
-.googleSearch img {
+.googleImg {
   width: 10%;
   height: 25%;
 }
 
 .input {
   width: 25%;
+  position: relative;
+  top: 10%;
+  padding-left: 1rem;
 }
 
 .icon {
   position: absolute;
-  top: 5%;
-  width: 24px;
-  height: 24px;
+  top: 20%;
+  right: 0;
+  width: 20px;
+  height: 20px;
 }
