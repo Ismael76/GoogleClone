@@ -8,7 +8,7 @@ const titleArr = Array.from(title);
 const descArr = Array.from(desc);
 const tagsArr = Array.from(tags);
 
-const getAll = async () => {
+const getAll = async (e) => {
   const response = await fetch("http://localhost:3500/search");
   const data = await response.json();
 
