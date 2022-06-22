@@ -1,0 +1,30 @@
+/* header, footer{
+    width: 100%;
+    height: var(--stripsheight);
+} */
+
+body { 
+    font-family: monospace;
+    text-align: left;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    height: 25%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* border: black;
+    border-radius: 3px;
+    border-style: solid; */
+}
+ 
+
