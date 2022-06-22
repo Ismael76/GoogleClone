@@ -9,6 +9,8 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script defer src="./script.js"></script>
+   <script defer src="./session.js"></script>
 </head>
 <body>
       <div class="container">
@@ -22,11 +24,10 @@
           <form action="http://google.com/search" method="get">
             <div class="form-group">
     
-          <input type="text" class="form-control google-search" name="q">
+          <input type="text" class="form-control google-search" name="q" id="searchInput" >
           <div class="btn-group">
-      <!-- <button type="submit" href="result(s).html" class="btn btn-default">Google Search</button> -->
-      <a type="button" href="result(s).html" class="btn btn-default">Google Search</a>
-      <a type="button" href="result(s).html" class="btn btn-default">I'm Feeling Lucky</a>
+      <a type="button" href="result(s).html" class="btn btn-default" >Google Search</a>
+      <a id="result" type="button" href="result.html" class="btn btn-default">I'm Feeling Lucky</a>
       
     </div>
         </div>

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# GoogleClone
-
-    branch added
-=======
 # Lap1 Code Chanllenge - GoogleClone
 
 # Exercise description 

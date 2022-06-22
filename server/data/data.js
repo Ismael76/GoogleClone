@@ -2,6 +2,7 @@ searchItems = [
   {
     URL: "https://www.facebook.com",
     Title: "Facebook - Log In Or Sign Up",
+    Name:"facebook",
     Description:
       "Create an account or log in to Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
     Tags: "Social Media • Friends • FB • Groups",
@@ -9,6 +10,7 @@ searchItems = [
   {
     URL: "https://www.reddit.com",
     Title: "Reddit - Dive Into Anything",
+    // Name: "reddit",
     Description:
       "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in.",
     Tags: "Community • Memes • Groups",
@@ -65,6 +67,7 @@ searchItems = [
   {
     URL: "https://www.instagram.com",
     Title: "Instagram",
+    Name:"instagram",
     Description:
       "Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family..",
     Tags: "Social Media • Friends • Pictures • Videos",
