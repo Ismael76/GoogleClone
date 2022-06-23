@@ -1,8 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=Roboto:ital,wght@1,300&display=swap");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   max-width: 1140px;
   margin-left: 15rem;
   margin-top: 20rem;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-right: 5rem;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+#navbarList div {
+  display: flex;
+  width: 10%;
+  min-width: 50px;
+  padding: 0.2em 0;
+  align-items: center;
+}
+
+#navbarList a {
+  width: inherit;
+  color: #202124;
+  margin: 1rem;
+}
+
+.navLeft {
+  margin-left: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.profile {
+  margin-right: 10rem;
+  width: 36px;
+  border-radius: 50%;
+  height: 36px;
 }
 
 body {
@@ -43,6 +90,30 @@ section {
   background-color: #f2f2f2;
   color: #757575;
   font-weight: 900;
+}
+
+.searchBarContainer {
+  position: relative;
+}
+
+.microphoneIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+
+.searchIcon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
+
+.google-search {
+  padding-left: 4rem !important;
 }
 
 .url {
