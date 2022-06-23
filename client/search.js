@@ -3,6 +3,8 @@ let title = document.querySelector(".title");
 let desc = document.querySelector(".desc");
 let tags = document.querySelector(".tags");
 
+let sectionAddTo = document.querySelector(".container");
+
 let search = localStorage.getItem("searchValue");
 
 const getResult = async () => {
