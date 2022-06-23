@@ -1,6 +1,8 @@
 let btn = document.getElementById("result");
 let searchInput = document.getElementById("searchInput");
 
+let allBtn = document.getElementById("all");
+
 const checkSearch = async (event) => {
   event.preventDefault();
 
@@ -24,3 +26,7 @@ const checkSearch = async (event) => {
 };
 
 btn.addEventListener("click", checkSearch);
+
+allBtn.addEventListener("click", () => {
+  localStorage.setItem("value", "accept");
+});
