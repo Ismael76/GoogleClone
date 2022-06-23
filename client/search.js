@@ -9,6 +9,7 @@ let search = localStorage.getItem("searchValue");
 
 let all = localStorage.getItem("allResult");
 let one = localStorage.getItem("oneResult");
+let googleSearch = localStorage.getItem("googleResult");
 
 const getResult = async () => {
   const response = await fetch("http://localhost:5500/search");
@@ -67,10 +68,40 @@ const getAll = async (e) => {
     paraDesc.classList.add("desc");
     paraTags.classList.add("tags");
 
-    section.append(anchorTitle);
     section.append(paraURL);
+    section.append(anchorTitle);
     section.append(paraDesc);
     section.append(paraTags);
+  }
+};
+
+const googleSearchFunc = async (e) => {
+  const response = await fetch("http://localhost:5500/google");
+
+  const data = await response.json();
+
+  for (let i = 0; i < 4; i++) {
+    console.log(data.organic_results[i]);
+    let section = document.createElement("section");
+    let anchorTitle = document.createElement("a");
+    let paraURL = document.createElement("p");
+    let paraDesc = document.createElement("p");
+
+    sectionAddTo.append(section);
+
+    anchorTitle.innerText = data.organic_results[i].title;
+    paraURL.innerText = data.organic_results[i].link;
+    anchorTitle.setAttribute("href", data.organic_results[i].link);
+    paraDesc.innerText =
+      data.organic_results[i].about_this_result.source.description;
+
+    paraURL.classList.add("url");
+    anchorTitle.classList.add("title");
+    paraDesc.classList.add("desc");
+
+    section.append(paraURL);
+    section.append(anchorTitle);
+    section.append(paraDesc);
   }
 };
 
@@ -80,4 +111,7 @@ if (all === "all") {
 } else if (one === "one") {
   getResult();
   localStorage.setItem("oneResult", "reset");
+} else if (googleSearch === "google") {
+  googleSearchFunc();
+  localStorage.setItem("googleResult", "reset");
 }
