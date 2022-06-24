@@ -11,7 +11,7 @@ Extension: You may make use of a Google Search API. Also - if you use your own A
 
 # Implementation
 
-## Installation and usage
+## Installation & Usage
 
 - Git clone/download the repository
 - Open repository using GitBash or GitDesktop
@@ -26,7 +26,7 @@ Extension: You may make use of a Google Search API. Also - if you use your own A
 
 - Navigate into the client folder
 - Open homepage.html via live server plugin</br>
-  Note! another way to open the file is right click and selecting `Copy Path`, then paste it in the browser
+  Note: Another way to open the file is right click and selecting `Copy Path`, then paste it in the browser
 
 ### Technologies
 
