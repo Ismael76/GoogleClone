@@ -79,7 +79,7 @@ Then, taking the process in terms of milestiones there were two significant ones
 
 Completing the task has brought several accomiplishements namely:
 - an increase of the communication skills, motivation, and focus
-- 
+
 
 Yet, there were sevral challenges such as:
 - strcturing the process
