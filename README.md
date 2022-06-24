@@ -1,13 +1,13 @@
-# Lap1 Code Chanllenge - GoogleClone
+# Lap1 Code Challenge - GoogleClone
 
-# Exercise description
+# Exercise Description
 
-Within your pair work on developing an alike Google. In other words, create your own server, and front end - with Google's look - that communicate one other so that:
+Within your pair, work on developing a Google like application. In other words, create your own server, and front end - with Google's look - that communicate with one other so that:
 
 - when pressing the left side button, an API call should be executed and users should be shown a page with ten results
-- when prrssimg the right side button, user should be taken to the page of one of the results
+- when pressing the right side button, user should be taken to the page of one of the results searched by the user
 
-Obervation! You may use of the Google Search API. Also - if case you use your own API - you can have limited selection of 'result' options that might be returned for a few search terms
+Extension: You may make use of a Google Search API. Also - if you use your own API - you can have limited selection of 'result' options that might be returned for a few search terms.
 
 # Implementation
 
@@ -41,14 +41,14 @@ Obervation! You may use of the Google Search API. Also - if case you use your ow
 
 ### Usage
 
-Having opened the homepage, the user should see several options to access - as does Google. However, for the purpose of this paper only the `Google Search` and `I'm feeling lucky` buttons functionality will be addressed.
+Having opened the homepage, the user should see several options to access - as does Google. However, for the purpose of this project only the `Google Search` and `I'm feeling lucky` button functionalities will be addressed.
 
-In case the user selected the `Google Search` button, then the user should be redirected to a new page. The new page will present several results in a Google list of results format. Thus, several of the items in the list can be accesed, and will redirect the user accordingly.
+In case the user selected the `Google Search` button, then the user should be redirected to a new page. The new page will present several results in a Google list of results format from an API created by us. Thus, several of the items in the list can be accesed, and will redirect the user accordingly.
 
-In case the user wishes to selected the `Google Search` button, the user must give an input to the text area with any of the following terms: facebook, reddit, amazon, sky, youtube, netflix, microsoft, github, steam, instagram. Then, the user should be redirected to a new page that will display the result as an item in a Google list of results format. However, if no input was given, then the user will be prompted with an informative message.
+In case the user wishes to select the `I'm Feeling Lucky` button, the user must give an input to the text area with any of the following terms: facebook, reddit, amazon, sky, youtube, netflix, microsoft, github, steam, instagram. Then, the user should be redirected to a new page that will display the result as an item in a Google list of results format. However, if no input is given, then the user will be prompted with an informative message.
 </br>
 
-Note! Google list of results is taken with the following template
+Note: Google list of results is created with the following template:
 
 - url
 - title
@@ -57,36 +57,36 @@ Note! Google list of results is taken with the following template
 
 ## Process
 
-The overall process was a graet collaboration!
+The overall process was a great collaboration!
 
 To begin with, the project kick off with a short meeting to run through the tasks, and ensure the team's focus and understanding of the requierments and needed deliverables.
 
-Moving on, tasks were divided in two main areas server side, and client side. The task were then allocated to each of the team members. And still, whit the project progressing the divison of tasks has gone.
+Moving on, tasks were divided in two main areas, server side and client side. The task were then allocated to each of the team members. And still, whilst the project was progressing the divison of tasks has gone.
 
 Next, during the duration of the working day several meetings were done at an interval of about 1h to 2h via Slack. This approached proved to be of great benefit for performance, and error handling. Additionaly, it helped keeping the team focused and motivated. Thus, the project had implemented a similar approach to the extreme programming.
 
-Then, taking the process in terms of milestiones there were two significant ones - before, and after reviewing. The before reviewing stage had implemented a straight foward, yet wide approach. To better clarify, two pages were created with the associated buttons - `Google Searc`, `I'm feeling lucky` - followimg the structure of the desiered outcome. And the design was basic. Next, the after reviewing stage, used only one page to display the results by making use of the `sessionStorage()` object, and the `.createElemnt()` and `.append()`. In other words, depenidng on which button is selected, a value will be stored for the session and used to determine the results - whether showing the full list, or just one item.
+Then, taking the process in terms of milestiones there were two significant ones - before, and after reviewing. The before reviewing stage had implemented a straight foward, yet wide approach. To better clarify, two pages were created with the associated buttons - `Google Search`, `I'm Feeling Lucky` - followimg the structure of the desired outcome. And the design was basic. Next, the after reviewing stage, used only one page to display the results by making use of the `sessionStorage()` object, and the `.createElement()` and `.append()`. In other words, depending on which button is selected, a value will be stored for the session and used to determine the results - whether showing the full list, or just one item.
 
 ### Bugs
 
-- for the latest design, the `I'm feeling lucky` button fails to do the random set of the text
-- for the implemeted design, the image is misplaced, the button aspect should be improved, and few other elements need to be added (that are on the latest design)
+- For the latest design, the `I'm Feeling Lucky` button fails to do the random set of the text
+- For the implemeted design, the image is misplaced, the button aspect should be improved, and few other elements need to be added (that are on the latest design)
 
 ### Future work
 
-- integrating the new design
-- adjusting the design of the result.html
+- Integrating the new design
+- Adjusting the design of the result.html
 
-# Wins and challengs
+# Wins and challenges
 
-Completing the task has brought several accomiplishements namely:
+Completing the task has brought several accomplishements namely:
 
-- an increase of the communication skills, motivation, and focus
+- An increase of the communication skills, motivation, and focus
 
-Yet, there were sevral challenges such as:
+Yet, there were several challenges such as:
 
-- strcturing the process
-- overlooking the importance of using comments in the code
+- Structuring the process
+- Overlooking the importance of using comments in the code
 
 # Licence
 
