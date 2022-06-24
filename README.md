@@ -26,7 +26,7 @@ Obervation! You may use of the Google Search API. Also - if case you use your ow
 - Open homepage.html via live server plugin</br>
 Note! another way to open the file is right click and selecting `Copy Path`, then paste it in the browser
 
-## Technologies 
+### Technologies 
 
 - GitHub
 - GitBash (or GitDesktop, or any terminal)
@@ -37,15 +37,54 @@ Note! another way to open the file is right click and selecting `Copy Path`, the
 - API
 - Node.js
 
+### Usage 
+
+Having opened the homepage, the user should see several options to access - as does Google. However, for the purpose of this paper only the `Google Search` and `I'm feeling lucky` buttons functionality will be addressed. 
+
+In case the user selected the `Google Search` button, then the user should be redirected to a new page. The new page will present several results in a Google list of results format. Thus, several of the items in the list can be accesed, and will redirect the user accordingly. 
+
+In case the user wishes to selected the `Google Search` button, the user must give an input to the text area with any of the following terms: facebook, reddit, amazon, sky, youtube, netflix, microsoft, github, steam, instagram. Then, the user should be redirected to a new page that will display the result as an item in a Google list of results format. However, if no input was given, then the user will be prompted with an informative message.
+</br>
+
+Note! Google list of results is taken with the following template 
+- url
+- title
+- description
+- tags 
+
 ## Process 
 
-To start
+The overall process was a graet collaboration!
+
+To begin with, the project kick off with a short meeting to run through the tasks, and ensure the team's focus and understanding of the requierments and needed deliverables. 
+
+Moving on, tasks were divided in two main areas server side, and client side. The task were then allocated to each of the team members. And still, whit the project progressing the divison of tasks has gone. 
+
+Next, during the duration of the working day several meetings were done at an interval of about 1h to 2h via Slack. This approached proved to be of great benefit for performance, and error handling. Additionaly, it helped keeping the team focused and motivated. Thus, the project had implemented a similar approach to the extreme programming. 
+
+Then, taking the process in terms of milestiones there were two significant ones - before, and after reviewing. The before reviewing stage had implemented a straight foward, yet wide approach. To better clarify, two pages were created with the associated buttons - `Google Searc`, `I'm feeling lucky` - followimg the structure of the desiered outcome. And the design was basic. Next, the after reviewing stage, used only one page to display the results by making use of the `sessionStorage()` object, and the `.createElemnt()` and `.append()`. In other words, depenidng on which button is selected, a value will be stored for the session and used to determine the results - whether showing the full list, or just one item. 
+
 
 ### Bugs
 
-- the input search on the homepage.html redirects the user to Google when pressing enter
-- also, the text input from the result.html and result(s).html is not functional (though this might not be considered as a bug, rather a future underdevelopment)
+- for the latest design, the `I'm feeling lucky` button fails to do the random set of the text 
+- for the implemeted design, the image is misplaced, the button aspect should be improved, and few other elements need to be added (that are on the latest design)
+
+### Future work
+
+ - integrating the new design
+ - adjusting the design of the result.html 
 
 # Wins and challengs
 
- # Licence
+Completing the task has brought several accomiplishements namely:
+- an increase of the communication skills, motivation, and focus
+- 
+
+Yet, there were sevral challenges such as:
+- strcturing the process
+- overlooking the importance of using comments in the code
+
+
+# Licence
+[MIT licence](https://opensource.org/licenses/mit-license.php)

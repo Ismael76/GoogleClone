@@ -34,8 +34,8 @@ const getResult = async () => {
       paraDesc.classList.add("desc");
       paraTags.classList.add("tags");
 
-      section.append(anchorTitle);
       section.append(paraURL);
+      section.append(anchorTitle);
       section.append(paraDesc);
       section.append(paraTags);
     }
@@ -67,8 +67,8 @@ const getAll = async (e) => {
     paraDesc.classList.add("desc");
     paraTags.classList.add("tags");
 
-    section.append(anchorTitle);
     section.append(paraURL);
+    section.append(anchorTitle);
     section.append(paraDesc);
     section.append(paraTags);
   }

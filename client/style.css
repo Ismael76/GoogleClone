@@ -166,7 +166,7 @@ style {
   display: none;
 }
 
-/* .CcAdNb {
+.CcAdNb {
   margin: auto;
 }
 
@@ -177,9 +177,9 @@ style {
 .z1asCe svg {
   display: inline-block;
   fill: currentColor;
-} */
+}
 
-/* svg:not(:root) {
+svg:not(:root) {
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -197,9 +197,9 @@ style {
   white-space: pre;
   height: 34px;
   font-size: 16px;
-} */
+}
 
-/* .gLFyf {
+.gLFyf {
   background-color: transparent;
   border: none;
   margin: 0;
@@ -213,9 +213,9 @@ style {
   margin-top: -37px;
   height: 34px;
   font-size: 16px;
-} */
+}
 
-/* .dRYYxd {
+.dRYYxd {
   display: flex;
   flex: 0 0 auto;
   margin-top: -5px;
@@ -235,9 +235,9 @@ style {
   padding: 0 8px;
   width: 24px;
   line-height: 44px;
-} */
+} 
 
-/* .XDyW0e {
+ .XDyW0e {
   flex: 1 0 auto;
   display: flex;
   cursor: pointer;
@@ -254,7 +254,7 @@ style {
   height: 24px;
   width: 24px;
   vertical-align: middle;
-} */
+}
 
 
 
