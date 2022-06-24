@@ -17,7 +17,6 @@ body {
   padding-right: 5rem;
   font-size: 1.3rem;
   margin-top: 1rem;
-
 }
 
 #navbarList div {
@@ -95,7 +94,7 @@ body {
 body {
   font-family: monospace;
   text-align: left;
-	/* @@ -45,6 +92,30 @@ section { */
+  /* @@ -45,6 +92,30 @@ section { */
   font-weight: 900;
 }
 
@@ -179,4 +178,10 @@ body {
   color: #1a0dab;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
 }
