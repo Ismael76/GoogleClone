@@ -59,7 +59,7 @@ Note: Google list of results is created with the following template:
 
 The overall process was a great collaboration!
 
-To begin with, the project kick off with a short meeting to run through the tasks, and ensure the team's focus and understanding of the requierments and needed deliverables.
+To begin with, the project kick off with a short meeting to run through the tasks, and ensure the team's focus and understanding of the requirements and needed deliverables.
 
 Moving on, tasks were divided in two main areas, server side and client side. The task were then allocated to each of the team members. And still, whilst the project was progressing the divison of tasks has gone.
 
@@ -72,12 +72,12 @@ Then, taking the process in terms of milestiones there were two significant ones
 - For the latest design, the `I'm Feeling Lucky` button fails to do the random set of the text
 - For the implemeted design, the image is misplaced, the button aspect should be improved, and few other elements need to be added (that are on the latest design)
 
-### Future work
+### Future Work
 
 - Integrating the new design
 - Adjusting the design of the result.html
 
-# Wins and challenges
+# Wins & Challenges
 
 Completing the task has brought several accomplishements namely:
 
