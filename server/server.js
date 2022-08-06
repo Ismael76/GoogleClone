@@ -9,8 +9,13 @@ const cors = require("cors");
 let searchData = [];
 
 app.use(cors());
-
 app.use(express.json());
+
+const data = require("../server/data/data");
+
+app.get("/", (req, res) => {
+  res.send(data);
+});
 
 app.post("/google", (req, res) => {
   const data = req.body;
