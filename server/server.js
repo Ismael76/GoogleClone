@@ -11,7 +11,7 @@ let searchData = [];
 app.use(cors());
 app.use(express.json());
 
-const data = require("../server/data/data");
+const data = require("./data/data");
 
 app.get("/", (req, res) => {
   res.send(data);

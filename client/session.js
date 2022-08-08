@@ -5,7 +5,7 @@ let btn = document.getElementById("result");
 const checkSearch = async (event) => {
   event.preventDefault();
 
-  const response = await fetch("http://localhost:5500/search");
+  const response = await fetch("http://localhost:3000/search");
   const data = await response.json();
 
   for (let i = 0; i < data.length; i++) {
@@ -33,7 +33,7 @@ allBtn.addEventListener("click", () => {
 });
 
 const googleAPI = async (e) => {
-  const response = await fetch("http://localhost:5500/google");
+  const response = await fetch("http://localhost:3000/google");
 
   const data = await response.json();
 
@@ -82,7 +82,7 @@ window.addEventListener("keydown", (e) => {
       },
     };
 
-    fetch("http://localhost:5500/google", options)
+    fetch("http://localhost:3000/google", options)
       .then((r) => r.json())
       .catch((err) => {
         console.log(err);
