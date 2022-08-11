@@ -1,6 +1,5 @@
 const request = require ('supertest');
 const app = require("../server");
-const data = require("../data/data");
 
 describe ('API server', () => {
     let api;
