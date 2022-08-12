@@ -12,7 +12,7 @@ let one = localStorage.getItem("oneResult");
 let googleSearch = localStorage.getItem("googleResult");
 
 const getResult = async () => {
-  const response = await fetch("http://localhost:3000/search");
+  const response = await fetch("https://lap-1-code-challenge.vercel.app/search");
   const data = await response.json();
   for (let i = 0; i < data.length; i++) {
     if (search == data[i].Name) {
@@ -44,7 +44,7 @@ const getResult = async () => {
 };
 
 const getAll = async (e) => {
-  const response = await fetch("http://localhost:3000/search");
+  const response = await fetch("https://lap-1-code-challenge.vercel.app/search");
 
   const data = await response.json();
 
@@ -76,7 +76,7 @@ const getAll = async (e) => {
 };
 
 const googleSearchFunc = async (e) => {
-  const response = await fetch("http://localhost:3000/google");
+  const response = await fetch("https://lap-1-code-challenge.vercel.app/google");
 
   const data = await response.json();
 
